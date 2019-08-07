@@ -22,15 +22,12 @@ import("frameworks\\__init")
 
 local function main()
 
+	local tree = Tree:create()
 
-	local heap	 = Heap:create()
-	print(type(heap))
 
-	for key,val in pairs(heap) do
-		print(key)
-	end
 
-	heap:print()
+	-- local heap	 = Heap:create()
+
 
 
 

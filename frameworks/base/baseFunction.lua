@@ -9,7 +9,7 @@ function class(className)
 
 
 
-	tb.create = function(self)
+	tb.create = function(self,...)
 		local son = {}
 
 		son.__super = tb
@@ -28,6 +28,11 @@ function class(className)
 			end
 		end
 		setmetatable(son,son)
+
+		if son.onCreate then
+			son:onCreate(...)
+		end
+
 		return son
 	end
 

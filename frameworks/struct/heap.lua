@@ -7,10 +7,26 @@
 Heap = class("Heap")
 
 
+function Heap:onCreate()
+	
 
-function Heap:print()
-	print("i am heap")
+
+
 end
+
+
+function Heap:onCreate()
+
+end
+
+
+
+
+
+
+
+
+
 
 
 
