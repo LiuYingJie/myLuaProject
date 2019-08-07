@@ -1,7 +1,11 @@
 
 
-import("frameworks.struct.heap")
+import("frameworks.struct.Array")
+
+import("frameworks.struct.List")
+
+import("frameworks.struct.Heap")
 
 
-import("frameworks.struct.tree")
+import("frameworks.struct.Tree")
 

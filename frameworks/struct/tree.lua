@@ -20,12 +20,14 @@ Tree = class("Tree")
 
 
 function Tree:onCreate()
-	
-
-
+	print("Tree")
+	self.m_root = {}
 end
 
 
+function Tree:onCreate()
+
+end
 
 
 
